@@ -1,0 +1,50 @@
+@use 'abstracts/variables';
+
+.bg{
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: auto; //hay que cambiar a auto
+    /* UI Properties */
+    background: transparent linear-gradient(205deg, hsl(210, 92%, 24%) 0%, hsl(188, 100%, 35%) 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.card-styling{
+    width: auto;
+    height: auto;
+    margin: 2rem;
+    border-radius: 0.625rem;
+    border: none;
+}
+
+.card-blue{
+    background-color: variables.$clr-light-blue;
+}
+.card-yellow{
+    background-color: variables.$clr-yellow;
+}
+.card-orange{
+    background-color: variables.$clr-orange;
+}
+.card-red{
+    background-color: variables.$clr-red;
+}
+.card-dred{
+    background-color: variables.$clr-dark-red;
+}
+.card-wine{
+    background-color: variables.$clr-wine;
+}
+
+.h-icon{
+    width: 30%;
+}
+
+.v-icon{
+    width: 20%;
+}
+
+.c-icon{
+    margin-left: 14rem;
+}

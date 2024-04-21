@@ -1,0 +1,43 @@
+@use 'abstracts/variables';
+@use 'abstracts/mixins';
+@use './media-queries';
+
+.title{
+    @include mixins.set-font(variables.$ff-primary, variables.$fs-xlg, variables.$fw-semibold, variables.$clr-white);
+    text-align: center;
+    padding-top: 2.5rem;
+    margin-bottom: 0;
+}
+
+.subtitle{
+    @include mixins.set-font(variables.$ff-primary, variables.$fs-lg, variables.$fw-light, variables.$clr-white);
+    text-align: center;
+}
+
+.provincia{
+    @include mixins.set-font(variables.$ff-secondary, variables.$fs-med, variables.$fw-bold, variables.$clr-white);
+}
+
+.condicion{
+    @include mixins.set-font(variables.$ff-secondary, variables.$fs-xxsm, variables.$fw-regular, variables.$clr-white);
+}
+
+.temperatura{
+    @include mixins.set-font(variables.$ff-secondary, variables.$fs-xmed, variables.$fw-bold, variables.$clr-white);
+}
+
+.humedad{
+    @include mixins.set-font(variables.$ff-tertiary, variables.$fs-xsm, variables.$fw-regular, variables.$clr-white);
+}
+
+.velocidad{
+    @include mixins.set-font(variables.$ff-tertiary, variables.$fs-xsm, variables.$fw-regular, variables.$clr-white);
+}
+
+.temp{
+    @include mixins.set-font(variables.$ff-secondary, variables.$fs-sm, variables.$fw-thin, variables.$clr-white);
+}
+
+.radiacion{
+    @include mixins.set-font(variables.$ff-secondary, variables.$fs-sm, variables.$fw-thin, variables.$clr-white);
+}
